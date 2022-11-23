@@ -1,0 +1,25 @@
+{
+  "name": "easy-vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npm ./vite/index",
+    "dev": "nodemon ./vite/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuxiao-chen/EasyVite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuxiao-chen/EasyVite/issues"
+  },
+  "homepage": "https://github.com/yuxiao-chen/EasyVite#readme",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "nodemon": "^2.0.20",
+    "vue": "^3.2.45"
+  }
+}
